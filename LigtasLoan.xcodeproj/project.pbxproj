@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730C41272CD5566A0011E4EB /* LLQAWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C41262CD5566A0011E4EB /* LLQAWViewController.swift */; };
+		730C41292CD6260E0011E4EB /* LLWYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C41282CD6260E0011E4EB /* LLWYViewController.swift */; };
+		730CECF82CC9363F002F96E0 /* LLDLInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730CECF72CC9363F002F96E0 /* LLDLInfo.swift */; };
+		7326BCF72CD26DEF00432E44 /* LLStepTHRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7326BCF62CD26DEF00432E44 /* LLStepTHRViewController.swift */; };
+		7326BCF92CD2701200432E44 /* LLStepTFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7326BCF82CD2701200432E44 /* LLStepTFViewController.swift */; };
+		732A7F3F2CBA51390097B3FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732A7F352CBA51390097B3FB /* AppDelegate.swift */; };
+		732A7F422CBA51390097B3FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732A7F362CBA51390097B3FB /* Assets.xcassets */; };
+		732A7F442CBA51390097B3FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732A7F392CBA51390097B3FB /* LaunchScreen.storyboard */; };
+		732A7F4A2CBA526F0097B3FB /* LLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732A7F492CBA526F0097B3FB /* LLBaseViewController.swift */; };
+		732A7F4C2CBA52810097B3FB /* LLLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732A7F4B2CBA52810097B3FB /* LLLaunchViewController.swift */; };
+		7333D3332CD8F2A600FA829E /* LLRightListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333D3322CD8F2A600FA829E /* LLRightListViewController.swift */; };
+		73342AB92CC7D39A002EDA2B /* LLConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73342AB82CC7D39A002EDA2B /* LLConfig.swift */; };
+		73342ABE2CC7D68B002EDA2B /* LLSYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73342ABD2CC7D68B002EDA2B /* LLSYViewController.swift */; };
+		73342AC12CC7D6D2002EDA2B /* LLZCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73342AC02CC7D6D2002EDA2B /* LLZCViewController.swift */; };
+		73342AC32CC7D9DA002EDA2B /* LLBaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73342AC22CC7D9DA002EDA2B /* LLBaseNavViewController.swift */; };
+		73342AC72CC7E3D8002EDA2B /* LLDLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73342AC62CC7E3D8002EDA2B /* LLDLView.swift */; };
+		7338B9C12CCBCBA2001CBAFE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338B9C02CCBCB99001CBAFE /* HomeView.swift */; };
+		7338B9C52CCBEFE7001CBAFE /* LLTypeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338B9C42CCBEFE7001CBAFE /* LLTypeListViewController.swift */; };
+		733EF7142CD8A2F70016EA67 /* LLDeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EF7132CD8A2E80016EA67 /* LLDeInfo.swift */; };
+		733EF7162CD8A3200016EA67 /* LLDeTTInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EF7152CD8A3150016EA67 /* LLDeTTInfo.swift */; };
+		733EF71D2CD8C7A00016EA67 /* LLMdMessInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EF71C2CD8C7A00016EA67 /* LLMdMessInfo.swift */; };
+		73438F542CF079D8003255BE /* LLBothModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73438F532CF079CC003255BE /* LLBothModels.swift */; };
+		7378E0B62CF83B6400F84036 /* DelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7378E0B52CF83B6300F84036 /* DelView.swift */; };
+		738ED1462CBFB45A0085C713 /* LLRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738ED1452CBFB45A0085C713 /* LLRequestManager.swift */; };
+		739685D62CE38CC0007D41D0 /* LLTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739685D52CE38CC0007D41D0 /* LLTabBarViewController.swift */; };
+		739685D82CE38D7A007D41D0 /* LLCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739685D72CE38D7A007D41D0 /* LLCenterViewController.swift */; };
+		739685DA2CE3A2B7007D41D0 /* LLAddBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739685D92CE3A2B7007D41D0 /* LLAddBankViewController.swift */; };
+		73A6F6FC2CCE8C8F0081DF5C /* LLStepTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A6F6FB2CCE8C8F0081DF5C /* LLStepTwoViewController.swift */; };
+		73B728192CD68057006CBAA7 /* LLLocationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B728182CD68057006CBAA7 /* LLLocationConfig.swift */; };
+		73B7281C2CD69781006CBAA7 /* sflight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73B7281A2CD69781006CBAA7 /* sflight.ttf */; };
+		73B7281D2CD69781006CBAA7 /* sfsemibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73B7281B2CD69781006CBAA7 /* sfsemibold.ttf */; };
+		73E1CA632CCD3E3000072597 /* LLIDListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E1CA622CCD3E3000072597 /* LLIDListViewController.swift */; };
+		73E1CA652CCD4B1F00072597 /* LLUploadIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E1CA642CCD4B1F00072597 /* LLUploadIDViewController.swift */; };
+		73E1CA672CCD54BD00072597 /* LLTypePopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E1CA662CCD54AB00072597 /* LLTypePopView.swift */; };
+		73E1CA692CCD5D4400072597 /* LLPhotoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E1CA682CCD5D2E00072597 /* LLPhotoConfig.swift */; };
+		99178D3E924A5A601F340AF3 /* Pods_LigtasLoan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F241486B4886CF0557C586 /* Pods_LigtasLoan.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42F241486B4886CF0557C586 /* Pods_LigtasLoan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LigtasLoan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		730C41262CD5566A0011E4EB /* LLQAWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLQAWViewController.swift; sourceTree = "<group>"; };
+		730C41282CD6260E0011E4EB /* LLWYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLWYViewController.swift; sourceTree = "<group>"; };
+		730CECF72CC9363F002F96E0 /* LLDLInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLDLInfo.swift; sourceTree = "<group>"; };
+		7326BCF62CD26DEF00432E44 /* LLStepTHRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLStepTHRViewController.swift; sourceTree = "<group>"; };
+		7326BCF82CD2701200432E44 /* LLStepTFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLStepTFViewController.swift; sourceTree = "<group>"; };
+		732A7EFA2CBA4EE50097B3FB /* LigtasLoan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LigtasLoan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		732A7F352CBA51390097B3FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		732A7F362CBA51390097B3FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		732A7F372CBA51390097B3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732A7F382CBA51390097B3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		732A7F492CBA526F0097B3FB /* LLBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLBaseViewController.swift; sourceTree = "<group>"; };
+		732A7F4B2CBA52810097B3FB /* LLLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLLaunchViewController.swift; sourceTree = "<group>"; };
+		7333D3322CD8F2A600FA829E /* LLRightListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLRightListViewController.swift; sourceTree = "<group>"; };
+		73342AB82CC7D39A002EDA2B /* LLConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLConfig.swift; sourceTree = "<group>"; };
+		73342ABD2CC7D68B002EDA2B /* LLSYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLSYViewController.swift; sourceTree = "<group>"; };
+		73342AC02CC7D6D2002EDA2B /* LLZCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLZCViewController.swift; sourceTree = "<group>"; };
+		73342AC22CC7D9DA002EDA2B /* LLBaseNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLBaseNavViewController.swift; sourceTree = "<group>"; };
+		73342AC62CC7E3D8002EDA2B /* LLDLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLDLView.swift; sourceTree = "<group>"; };
+		7338B9C02CCBCB99001CBAFE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7338B9C42CCBEFE7001CBAFE /* LLTypeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLTypeListViewController.swift; sourceTree = "<group>"; };
+		733EF7132CD8A2E80016EA67 /* LLDeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLDeInfo.swift; sourceTree = "<group>"; };
+		733EF7152CD8A3150016EA67 /* LLDeTTInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLDeTTInfo.swift; sourceTree = "<group>"; };
+		733EF7192CD8B8740016EA67 /* LigtasLoan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LigtasLoan.entitlements; sourceTree = "<group>"; };
+		733EF71C2CD8C7A00016EA67 /* LLMdMessInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMdMessInfo.swift; sourceTree = "<group>"; };
+		73438F532CF079CC003255BE /* LLBothModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLBothModels.swift; sourceTree = "<group>"; };
+		7378E0B52CF83B6300F84036 /* DelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelView.swift; sourceTree = "<group>"; };
+		738ED1452CBFB45A0085C713 /* LLRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLRequestManager.swift; sourceTree = "<group>"; };
+		739685D52CE38CC0007D41D0 /* LLTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLTabBarViewController.swift; sourceTree = "<group>"; };
+		739685D72CE38D7A007D41D0 /* LLCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLCenterViewController.swift; sourceTree = "<group>"; };
+		739685D92CE3A2B7007D41D0 /* LLAddBankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLAddBankViewController.swift; sourceTree = "<group>"; };
+		73A6F6FB2CCE8C8F0081DF5C /* LLStepTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLStepTwoViewController.swift; sourceTree = "<group>"; };
+		73B728182CD68057006CBAA7 /* LLLocationConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLLocationConfig.swift; sourceTree = "<group>"; };
+		73B7281A2CD69781006CBAA7 /* sflight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sflight.ttf; sourceTree = "<group>"; };
+		73B7281B2CD69781006CBAA7 /* sfsemibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfsemibold.ttf; sourceTree = "<group>"; };
+		73E1CA622CCD3E3000072597 /* LLIDListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLIDListViewController.swift; sourceTree = "<group>"; };
+		73E1CA642CCD4B1F00072597 /* LLUploadIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLUploadIDViewController.swift; sourceTree = "<group>"; };
+		73E1CA662CCD54AB00072597 /* LLTypePopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLTypePopView.swift; sourceTree = "<group>"; };
+		73E1CA682CCD5D2E00072597 /* LLPhotoConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLPhotoConfig.swift; sourceTree = "<group>"; };
+		B721BA417BA54A55CBD8A223 /* Pods-LigtasLoan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LigtasLoan.debug.xcconfig"; path = "Target Support Files/Pods-LigtasLoan/Pods-LigtasLoan.debug.xcconfig"; sourceTree = "<group>"; };
+		FDAB4B2D29834F0473B37268 /* Pods-LigtasLoan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LigtasLoan.release.xcconfig"; path = "Target Support Files/Pods-LigtasLoan/Pods-LigtasLoan.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		732A7EF72CBA4EE50097B3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99178D3E924A5A601F340AF3 /* Pods_LigtasLoan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D20C70B8FAC71472FC9BE5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42F241486B4886CF0557C586 /* Pods_LigtasLoan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		732A7EF12CBA4EE50097B3FB = {
+			isa = PBXGroup;
+			children = (
+				732A7F3E2CBA51390097B3FB /* LigtasLoan */,
+				732A7EFB2CBA4EE50097B3FB /* Products */,
+				9C6DEAF45D9CA6BC808160E1 /* Pods */,
+				1D20C70B8FAC71472FC9BE5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		732A7EFB2CBA4EE50097B3FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				732A7EFA2CBA4EE50097B3FB /* LigtasLoan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		732A7F3E2CBA51390097B3FB /* LigtasLoan */ = {
+			isa = PBXGroup;
+			children = (
+				733EF7192CD8B8740016EA67 /* LigtasLoan.entitlements */,
+				732A7F372CBA51390097B3FB /* Info.plist */,
+				73B7281A2CD69781006CBAA7 /* sflight.ttf */,
+				73B7281B2CD69781006CBAA7 /* sfsemibold.ttf */,
+				732A7F362CBA51390097B3FB /* Assets.xcassets */,
+				732A7F392CBA51390097B3FB /* LaunchScreen.storyboard */,
+				73342AB82CC7D39A002EDA2B /* LLConfig.swift */,
+				732A7F352CBA51390097B3FB /* AppDelegate.swift */,
+				73438F532CF079CC003255BE /* LLBothModels.swift */,
+				730CECF72CC9363F002F96E0 /* LLDLInfo.swift */,
+				733EF7132CD8A2E80016EA67 /* LLDeInfo.swift */,
+				733EF7152CD8A3150016EA67 /* LLDeTTInfo.swift */,
+				73B728182CD68057006CBAA7 /* LLLocationConfig.swift */,
+				73E1CA682CCD5D2E00072597 /* LLPhotoConfig.swift */,
+				738ED1452CBFB45A0085C713 /* LLRequestManager.swift */,
+				732A7F492CBA526F0097B3FB /* LLBaseViewController.swift */,
+				732A7F4B2CBA52810097B3FB /* LLLaunchViewController.swift */,
+				73342AC22CC7D9DA002EDA2B /* LLBaseNavViewController.swift */,
+				733EF71C2CD8C7A00016EA67 /* LLMdMessInfo.swift */,
+				739685D52CE38CC0007D41D0 /* LLTabBarViewController.swift */,
+				73342AC62CC7E3D8002EDA2B /* LLDLView.swift */,
+				73342AC02CC7D6D2002EDA2B /* LLZCViewController.swift */,
+				7378E0B52CF83B6300F84036 /* DelView.swift */,
+				73E1CA662CCD54AB00072597 /* LLTypePopView.swift */,
+				7338B9C02CCBCB99001CBAFE /* HomeView.swift */,
+				73342ABD2CC7D68B002EDA2B /* LLSYViewController.swift */,
+				7333D3322CD8F2A600FA829E /* LLRightListViewController.swift */,
+				7338B9C42CCBEFE7001CBAFE /* LLTypeListViewController.swift */,
+				73E1CA622CCD3E3000072597 /* LLIDListViewController.swift */,
+				73E1CA642CCD4B1F00072597 /* LLUploadIDViewController.swift */,
+				73A6F6FB2CCE8C8F0081DF5C /* LLStepTwoViewController.swift */,
+				7326BCF62CD26DEF00432E44 /* LLStepTHRViewController.swift */,
+				7326BCF82CD2701200432E44 /* LLStepTFViewController.swift */,
+				730C41262CD5566A0011E4EB /* LLQAWViewController.swift */,
+				739685D72CE38D7A007D41D0 /* LLCenterViewController.swift */,
+				730C41282CD6260E0011E4EB /* LLWYViewController.swift */,
+				739685D92CE3A2B7007D41D0 /* LLAddBankViewController.swift */,
+			);
+			path = LigtasLoan;
+			sourceTree = "<group>";
+		};
+		9C6DEAF45D9CA6BC808160E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B721BA417BA54A55CBD8A223 /* Pods-LigtasLoan.debug.xcconfig */,
+				FDAB4B2D29834F0473B37268 /* Pods-LigtasLoan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		732A7EF92CBA4EE50097B3FB /* LigtasLoan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732A7F0D2CBA4EE60097B3FB /* Build configuration list for PBXNativeTarget "LigtasLoan" */;
+			buildPhases = (
+				05D045BCA308180B2F1D4554 /* [CP] Check Pods Manifest.lock */,
+				732A7EF62CBA4EE50097B3FB /* Sources */,
+				732A7EF72CBA4EE50097B3FB /* Frameworks */,
+				732A7EF82CBA4EE50097B3FB /* Resources */,
+				93D0983EF35859017D0A0ADB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LigtasLoan;
+			productName = LigtasLoan;
+			productReference = 732A7EFA2CBA4EE50097B3FB /* LigtasLoan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		732A7EF22CBA4EE50097B3FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					732A7EF92CBA4EE50097B3FB = {
+						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
+					};
+				};
+			};
+			buildConfigurationList = 732A7EF52CBA4EE50097B3FB /* Build configuration list for PBXProject "LigtasLoan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 732A7EF12CBA4EE50097B3FB;
+			productRefGroup = 732A7EFB2CBA4EE50097B3FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				732A7EF92CBA4EE50097B3FB /* LigtasLoan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		732A7EF82CBA4EE50097B3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B7281C2CD69781006CBAA7 /* sflight.ttf in Resources */,
+				73B7281D2CD69781006CBAA7 /* sfsemibold.ttf in Resources */,
+				732A7F422CBA51390097B3FB /* Assets.xcassets in Resources */,
+				732A7F442CBA51390097B3FB /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05D045BCA308180B2F1D4554 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LigtasLoan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D0983EF35859017D0A0ADB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LigtasLoan/Pods-LigtasLoan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LigtasLoan/Pods-LigtasLoan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LigtasLoan/Pods-LigtasLoan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		732A7EF62CBA4EE50097B3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738ED1462CBFB45A0085C713 /* LLRequestManager.swift in Sources */,
+				732A7F3F2CBA51390097B3FB /* AppDelegate.swift in Sources */,
+				730C41292CD6260E0011E4EB /* LLWYViewController.swift in Sources */,
+				733EF7162CD8A3200016EA67 /* LLDeTTInfo.swift in Sources */,
+				732A7F4A2CBA526F0097B3FB /* LLBaseViewController.swift in Sources */,
+				7338B9C52CCBEFE7001CBAFE /* LLTypeListViewController.swift in Sources */,
+				73A6F6FC2CCE8C8F0081DF5C /* LLStepTwoViewController.swift in Sources */,
+				733EF7142CD8A2F70016EA67 /* LLDeInfo.swift in Sources */,
+				7338B9C12CCBCBA2001CBAFE /* HomeView.swift in Sources */,
+				73E1CA632CCD3E3000072597 /* LLIDListViewController.swift in Sources */,
+				73342AC32CC7D9DA002EDA2B /* LLBaseNavViewController.swift in Sources */,
+				739685D62CE38CC0007D41D0 /* LLTabBarViewController.swift in Sources */,
+				732A7F4C2CBA52810097B3FB /* LLLaunchViewController.swift in Sources */,
+				7326BCF92CD2701200432E44 /* LLStepTFViewController.swift in Sources */,
+				73342AC12CC7D6D2002EDA2B /* LLZCViewController.swift in Sources */,
+				730C41272CD5566A0011E4EB /* LLQAWViewController.swift in Sources */,
+				7326BCF72CD26DEF00432E44 /* LLStepTHRViewController.swift in Sources */,
+				7378E0B62CF83B6400F84036 /* DelView.swift in Sources */,
+				73E1CA692CCD5D4400072597 /* LLPhotoConfig.swift in Sources */,
+				733EF71D2CD8C7A00016EA67 /* LLMdMessInfo.swift in Sources */,
+				73E1CA652CCD4B1F00072597 /* LLUploadIDViewController.swift in Sources */,
+				73342ABE2CC7D68B002EDA2B /* LLSYViewController.swift in Sources */,
+				73342AC72CC7E3D8002EDA2B /* LLDLView.swift in Sources */,
+				739685D82CE38D7A007D41D0 /* LLCenterViewController.swift in Sources */,
+				7333D3332CD8F2A600FA829E /* LLRightListViewController.swift in Sources */,
+				730CECF82CC9363F002F96E0 /* LLDLInfo.swift in Sources */,
+				739685DA2CE3A2B7007D41D0 /* LLAddBankViewController.swift in Sources */,
+				73E1CA672CCD54BD00072597 /* LLTypePopView.swift in Sources */,
+				73342AB92CC7D39A002EDA2B /* LLConfig.swift in Sources */,
+				73438F542CF079D8003255BE /* LLBothModels.swift in Sources */,
+				73B728192CD68057006CBAA7 /* LLLocationConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		732A7F392CBA51390097B3FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				732A7F382CBA51390097B3FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		732A7F0E2CBA4EE60097B3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B721BA417BA54A55CBD8A223 /* Pods-LigtasLoan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LigtasLoan/LigtasLoan.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = XS8842FK7N;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LigtasLoan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Agaran Peso";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To verify your identity, we require access to your device's camera. This allows you to capture and securely submit clear images of your identification documents, such as IDs, driver’s licenses, or passports, directly through the app.  \n";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Access to your contact list simplifies the process of adding emergency contacts when setting up your loan account. This ensures effective communication and supports a smooth loan application experience.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location data is essential for evaluating risk and ensuring transaction security during your loan application. In cases where loans are requested in unfamiliar areas, this information helps us assess potential risks and prevent fraud, ensuring safe and legitimate transactions.  ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location data is essential for evaluating risk and ensuring transaction security during your loan application. In cases where loans are requested in unfamiliar areas, this information helps us assess potential risks and prevent fraud, ensuring safe and legitimate transactions.  \n\nYour location data is essential for evaluating risk and ensuring transaction security during your loan application. In cases where loans are requested in unfamiliar areas, this information helps us assess potential risks and prevent fraud, ensuring safe and legitimate transactions.  \n\nYour location data is essential for evaluating risk and ensuring transaction security during your loan application. In cases where loans are requested in unfamiliar areas, this information helps us assess potential risks and prevent fraud, ensuring safe and legitimate transactions.  ";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Granting access to your photo gallery enables you to upload pre-existing images of your identification documents for identity verification. This streamlines the process, making it faster and more convenient for you.  ";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your device’s Advertising Identifier (IDFA) to better understand your financial preferences and habits. This helps us provide personalized loan recommendations tailored to your needs, offering you a more customized experience. ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.app.ald.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = testappaldprofile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		732A7F0F2CBA4EE60097B3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDAB4B2D29834F0473B37268 /* Pods-LigtasLoan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LigtasLoan/LigtasLoan.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = XS8842FK7N;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LigtasLoan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Agaran Peso";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To verify your identity, we require access to your device's camera. This allows you to capture and securely submit clear images of your identification documents, such as IDs, driver’s licenses, or passports, directly through the app.  \n";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Access to your contact list simplifies the process of adding emergency contacts when setting up your loan account. This ensures effective communication and supports a smooth loan application experience.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location data is essential for evaluating risk and ensuring transaction security during your loan application. In cases where loans are requested in unfamiliar areas, this information helps us assess potential risks and prevent fraud, ensuring safe and legitimate transactions.  ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location data is essential for evaluating risk and ensuring transaction security during your loan application. In cases where loans are requested in unfamiliar areas, this information helps us assess potential risks and prevent fraud, ensuring safe and legitimate transactions.  \n\nYour location data is essential for evaluating risk and ensuring transaction security during your loan application. In cases where loans are requested in unfamiliar areas, this information helps us assess potential risks and prevent fraud, ensuring safe and legitimate transactions.  \n\nYour location data is essential for evaluating risk and ensuring transaction security during your loan application. In cases where loans are requested in unfamiliar areas, this information helps us assess potential risks and prevent fraud, ensuring safe and legitimate transactions.  ";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Granting access to your photo gallery enables you to upload pre-existing images of your identification documents for identity verification. This streamlines the process, making it faster and more convenient for you.  ";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your device’s Advertising Identifier (IDFA) to better understand your financial preferences and habits. This helps us provide personalized loan recommendations tailored to your needs, offering you a more customized experience. ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.app.ald.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = testappaldprofile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		732A7F102CBA4EE60097B3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		732A7F112CBA4EE60097B3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		732A7EF52CBA4EE50097B3FB /* Build configuration list for PBXProject "LigtasLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732A7F102CBA4EE60097B3FB /* Debug */,
+				732A7F112CBA4EE60097B3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732A7F0D2CBA4EE60097B3FB /* Build configuration list for PBXNativeTarget "LigtasLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732A7F0E2CBA4EE60097B3FB /* Debug */,
+				732A7F0F2CBA4EE60097B3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 732A7EF22CBA4EE50097B3FB /* Project object */;
+}
